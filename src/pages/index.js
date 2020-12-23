@@ -61,12 +61,12 @@ export default function UsersList() {
       <User
         username="Amanda"
         avatar={Avtar1}
-        excerpt="I'm Jane Doe. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        excerpt="I'm Amanda. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
       />
       <User
         username="Georgie"
         avatar={Avtar2}
-        excerpt="I'm Bob smith, a vertically aligned type of guy. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        excerpt="I'm Georgie, Lorem ipsum dolor sit amet, consectetur adipisicing elit."
       />
     </Container>
   )

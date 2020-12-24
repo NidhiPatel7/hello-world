@@ -25,21 +25,22 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+      <Header siteTitle={`COMPANY NAME`} />
       <div
         style={{
           margin: `0 auto`,
           maxWidth: 960,
           padding: `0 1.0875rem 1.45rem`,
+          textAlign:`center`,
         }}
       >
         <main>{children}</main>
         <footer style={{
           marginTop: `2rem`
         }}>
-          © {new Date().getFullYear()}, Built with
+          © {new Date().getFullYear()}, Design by
           {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+          <a href="mailto:nidhipatel01@hotmail.com">Nidhi</a>
         </footer>
       </div>
     </>
